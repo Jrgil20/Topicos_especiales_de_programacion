@@ -48,3 +48,34 @@ Los tipos de datos especiales son datos que vienen definidos por el lenguaje.
 5. **NaN (Not a Number)**: Representa un valor que no es un número válido en operaciones matemáticas.
 6. **Symbol**: Introducido en ES6, representa un valor único e inmutable que puede ser utilizado como clave de propiedad en objetos.
 7. **Any**: En TypeScript, representa un valor que puede ser de cualquier tipo, permitiendo flexibilidad en el tipo de dato.
+
+
+## Codificación de los Tipos de Datos
+
+La codificación de los tipos de datos se refiere a la forma en que los datos se representan y almacenan en la memoria del ordenador. Existen diferentes esquemas de codificación que se utilizan para representar caracteres y otros tipos de datos. A continuación se presentan algunos esquemas de codificación comunes:
+
+### UTF-8
+
+UTF-8 (8-bit Unicode Transformation Format) es un esquema de codificación de caracteres que puede representar cualquier carácter Unicode. Utiliza entre 1 y 4 bytes para cada carácter, lo que lo hace eficiente en términos de espacio para textos en inglés y otros idiomas que utilizan caracteres ASCII.
+
+### UTF-16
+
+UTF-16 (16-bit Unicode Transformation Format) es otro esquema de codificación de caracteres que utiliza 2 bytes para la mayoría de los caracteres comunes y 4 bytes para caracteres menos comunes. Es ampliamente utilizado en sistemas y aplicaciones que requieren compatibilidad con Unicode.
+
+### UTF-32
+
+UTF-32 (32-bit Unicode Transformation Format) es un esquema de codificación de caracteres que utiliza 4 bytes para cada carácter. Aunque es menos eficiente en términos de espacio, es simple y directo, ya que cada carácter tiene una longitud fija.
+
+### ASCII
+
+ASCII (American Standard Code for Information Interchange) es un esquema de codificación de caracteres que utiliza 7 bits para representar caracteres. Es uno de los esquemas de codificación más antiguos y se utiliza principalmente para representar caracteres en inglés.
+
+### ISO-8859-1
+
+ISO-8859-1, también conocido como Latin-1, es un esquema de codificación de caracteres que utiliza 8 bits para representar caracteres. Es compatible con ASCII y se utiliza para representar caracteres en muchos idiomas europeos.
+
+### Base64
+
+Base64 es un esquema de codificación que se utiliza para representar datos binarios en formato de texto. Es comúnmente utilizado en la transmisión de datos a través de medios que solo soportan texto, como el correo electrónico.
+
+Estos esquemas de codificación son esenciales para la representación y manipulación de datos en diferentes contextos y aplicaciones. La elección del esquema de codificación adecuado depende de los requisitos específicos del sistema y de los datos que se van a manejar.
