@@ -18,23 +18,61 @@ const dividir: Operacion = (a, b) => a / b;
 ### Subtipos
 Un subtipo es un tipo que es una versión más específica de otro tipo. En TypeScript, los subtipos se utilizan para crear jerarquías de tipos que permiten una mayor flexibilidad y reutilización de código.
 
-#### Ejemplo de Subtipo
+### Subtipos Nominales y Subtipos Estructurales
+
+En TypeScript, los subtipos pueden clasificarse en dos categorías: nominales y estructurales.
+
+#### Subtipos Nominales
+Los subtipos nominales se basan en el nombre del tipo. Dos tipos son considerados compatibles si tienen el mismo nombre. TypeScript no utiliza subtipos nominales de manera predeterminada, pero se pueden simular utilizando clases y `instanceof`.
+
+#### Ejemplo de Subtipo Nominal
 ```typescript
-interface Animal {
+class Persona {
     nombre: string;
-    edad: number;
+    constructor(nombre: string) {
+        this.nombre = nombre;
+    }
 }
 
-interface Perro extends Animal {
-    raza: string;
+class Empleado extends Persona {
+    salario: number;
+    constructor(nombre: string, salario: number) {
+        super(nombre);
+        this.salario = salario;
+    }
 }
 
-const miPerro: Perro = {
-    nombre: "Firulais",
-    edad: 5,
-    raza: "Labrador"
-};
+const empleado: Empleado = new Empleado("Juan", 3000);
+console.log(empleado instanceof Persona); // true
 ```
+
+#### Subtipos Estructurales
+Los subtipos estructurales se basan en la forma o estructura del tipo. Dos tipos son considerados compatibles si tienen la misma estructura, independientemente de sus nombres. TypeScript utiliza subtipos estructurales de manera predeterminada.
+
+#### Ejemplo de Subtipo Estructural
+```typescript
+interface Punto {
+    x: number;
+    y: number;
+}
+
+interface Punto3D {
+    x: number;
+    y: number;
+    z: number;
+}
+
+const punto: Punto = { x: 1, y: 2 };
+const punto3D: Punto3D = { x: 1, y: 2, z: 3 };
+
+function imprimirPunto(p: Punto) {
+    console.log(`Punto: (${p.x}, ${p.y})`);
+}
+
+imprimirPunto(punto); // Punto: (1, 2)
+imprimirPunto(punto3D); // Punto: (1, 2)
+```
+
 
 ### Ventajas de los Tipos Funcionales y Subtipos
 - **Claridad**: Facilitan la comprensión del código al hacer explícitos los tipos de datos y las relaciones entre ellos.
