@@ -1,7 +1,7 @@
 # Composición y Tipos de Datos Algebraicos
 La composición o tipos de datos compuestos se refieren a la forma en que se combinan y estructuran diferentes tipos de datos para formar tipos más complejos. En TypeScript, esto se puede lograr mediante el uso de interfaces, tipos y clases. La composición de datos permite crear estructuras de datos más ricas y expresivas, facilitando la modelación de problemas del mundo real.
 
-## Tipos de Datos Compuestos en TypeScript
+## Tipos de Datos Compuestos 
 
 ### Tuplas
 Las tuplas en TypeScript permiten definir un arreglo con un número fijo de elementos, donde cada elemento puede tener un tipo diferente. Son útiles para representar estructuras de datos heterogéneas.
