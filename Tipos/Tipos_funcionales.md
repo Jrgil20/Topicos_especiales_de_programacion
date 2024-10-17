@@ -4,25 +4,6 @@
 TypeScript es un lenguaje de programación que extiende JavaScript añadiendo tipos estáticos. Los tipos funcionales son una característica poderosa que permite definir funciones con tipos específicos para sus parámetros y valores de retorno.
 
 
-## Sistemas de Tipos
-
-Un sistema de tipos es un marco que define cómo se asignan y verifican los tipos en un lenguaje de programación. Los sistemas de tipos ayudan a prevenir errores al garantizar que las operaciones realizadas en los datos sean válidas según sus tipos. Existen varios enfoques para implementar sistemas de tipos, cada uno con sus propias ventajas y desventajas.
-
-
-### Tipos Nominales
-En un sistema de tipos nominal, la compatibilidad y equivalencia de tipos se determina por nombres explícitos y declaraciones. Esto significa que dos tipos son considerados iguales si y solo si tienen el mismo nombre. Este enfoque es común en lenguajes como Java y C#.
-
-### Tipos Estructurales
-En un sistema de tipos estructural, la compatibilidad de tipos se basa en la estructura o forma de los tipos. Dos tipos son considerados iguales si tienen la misma estructura, es decir, los mismos miembros con los mismos tipos. TypeScript utiliza un sistema de tipos estructural, lo que permite una mayor flexibilidad y reutilización de código.
-
-### Tipos Varios
-Además de los sistemas de tipos nominales y estructurales, existen otros enfoques y combinaciones. Algunos lenguajes pueden utilizar un sistema de tipos híbrido que incorpora características de ambos enfoques. Otros pueden incluir sistemas de tipos dependientes, donde los tipos pueden depender de valores, o sistemas de tipos subestructurales, que permiten más flexibilidad en la compatibilidad de tipos.
-
-
-### Tipos Básicos
-Los tipos básicos en TypeScript incluyen `string`, `number`, `boolean`, `null`, `undefined`, y `symbol`. Estos tipos son fundamentales y se utilizan para definir las variables más comunes en el lenguaje. Además, TypeScript introduce el tipo `any`, que permite desactivar la verificación de tipos, y el tipo `unknown`, que es más seguro que `any` ya que requiere una verificación de tipo antes de su uso.
-
-
 ## Composición de Datos y Tipos de Datos Algebraicos
 
 ### Composición de Datos
