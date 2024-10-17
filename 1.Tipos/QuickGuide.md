@@ -3,7 +3,6 @@
 ## Introducción
 TypeScript es un lenguaje de programación que extiende JavaScript añadiendo tipos estáticos. Los tipos funcionales son una característica poderosa que permite definir funciones con tipos específicos para sus parámetros y valores de retorno.
 
-
 ## Tipos Funcionales y Subtipos
 
 ### Tipos Funcionales
