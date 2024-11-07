@@ -1,0 +1,221 @@
+# Lista de Enlaces a Playground con Código
+
+1. [Tipo de datos](https://www.typescriptlang.org/play/?#code/PTAEBUEsAcHsGdQBMCmyCGAXBoBGBD+SAYxxQDsIBPaFAZWICcZMAoVkUAIVlgBsU6cqwGZQkeABFY5FAC48vAUNABeUADN0feCgDcrUuXj8UAOj6wA5gAoABgFE+oAG7bYjZGgnTZoFPAKACQA3j4yKAC+dgCUBhxgAHIArgC2uCiMIihiqMSQqdoK5GkZnuoAbAaioAAWKAAexaWZaqAADA0a7e1I1Tl4kOTojFTN6a3q7bgAjO1z-WKwxJhFoCUT5R2wAOwALHsGRiYCFtb2AGrujAHraQCXzKSBXvmFfKqheQXakQA0dUanxC9Qa-0Gw1GwNwQxGVHBy1WH1CiN+sXinDomGY5Cs2TEpEsjAU8GxQysbQARLg+MkUJSjvwPG0AOQ3JAsxnGUxnWyOZyE5kBYIhQWMaJxdicACCjEY6Co+NAfAkmHGZQA2gBdNoamYAgBMAIAzFrFsrVQaFLL5VQADwbMoAPl1ewBAFYARUzYYZCdzJY+QAZVXoRCodYAL9SmQQIpVpMioCooFCCcwBolGLA4GS0AESqaoA1pJxVgBjsyPoausp9T4lkpALmZtAnAA8gBpX3c06B+y5-PoEUNDXtLVJlOhUczCfoqVgBwbVgUNKgADCTM8IQASigkACAOI3CgAri0qJK4gKTdEtq3jxmY8oChc-28+xOUBi-wvUIPxgNWIOdJQSUBpXIRUanIWBMDoZIbgUIQU3UQ5WBguCELQdRKUKKgMlAdBQFLclxGMTBBCQBl0Ng+CbjaLQdH0NswFgABrBUAVQDQhkgCi+BTIjcCUQRhGOHl+35Vxri8dZaKw38RQwuionnMCLlgSAkFYDRknIFZIBkUAAHcRnIABVXRGBsGIFBcTSkFAEJWFAVzvz9CTzkpcBagkcREFSFNTMYchSJjeB4HQKx6UlSJWGCiyrJs7NQBSBtCPIRzzMylAeNkbSamSBQ9O4oZ9zaErcrKvolXIZp0vUEoGzfTy+SuIlbkqvLypTJq+BFZJwVCcgswXVKUBcTIdL0gyjMyRgPBscLIuikkyVxWz1gm1pnLc0BMFqBbjK246HDlRblqilBYrG9tcAAKxQFZWDyPgRjQXT9MwQzKCYQQKJsWAFFgB6nrEAAfO4G02+ytKOG4sBQGwQlAaAFugBR2lASI4hY0Au0MBGAb63GO07IA)
+2. [Ejemplo 2: Calculadora Básica](https://playground.example.com/ejemplo2)
+3. [Ejemplo 3: Juego de Adivinanzas](https://playground.example.com/ejemplo3)
+4. [Ejemplo 4: Conversor de Monedas](https://playground.example.com/ejemplo4)
+
+
+## Ejercicios de Clase
+
+### Ejercicio 1
+Tienen un arreglo de objetos que representan productos en
+una tienda en línea. Cada objeto tiene las propiedades
+nombre, precio y categoria.
+Objetivo:
+Filtrar: Los productos que pertenecen a la categoría
+"Ropa".
+Transformar: Aumentar el precio de cada producto filtrado
+en un 10%.
+Reducir: Calcular el precio total de todos los productos
+filtrados y transformados.
+
+- [map filter reduce](https://www.typescriptlang.org/play/?#code/JYOwLgpgTgZghgYwgAgApQPYBMCuCwbIDeAUMuciBgLYBGUEAXMgM5hSgDmA3GRQA4MEwDMxA460XhWQI4kThg5xmbDiB4kAviRIIMINskHY8BFs3Sn8GANoBdZAF5ktvuSKUa9JsgDkAMJw1MAsEGBwfgA0xkIizABMAAwxcgpKwCr+AEoY-JHIWlHuxF50DMx+qHDgcAA2BhAs0bEQwqLIACwpsvIQisqVufl+hcUynlTlvn4AWnD55i2CbfHIAGw9af0ZWYH1AF5wWBijRSWT3hX+AMpX0KcxK+3MAIwArKl9A5mVAIIIJAsDIYZpjEj2Xh6AxGEy4GwsABiwDq7GOoOcsWs5gAdDAUZAoAAKOFmQhOAB8WPhBBx2x+cGcThcfmGkQAlFD9IYwNSySwACpQGosGBKajoliY0kI5Go4UnFg4iX8EmYGnkqlE0gyHF6mUEcYCOIdA0YHHPETIABUyFeONeSW07M5um5sJNAowETq0vV-KFIrFUAlipxDHhECJRIIPqe-ps7OcVNj9WQAGo+TYLSaYklXdDDBg6hAcQ1OESqgnzMg5WjFcgAJ7IQOGYOh0GMZbV0Gt0XiyWu93F0vlyvoVaEL0+rvxyfT+qcoA)
+
+### Ejercicio 2
+Tienen una tienda en línea que vende productos con
+diferentes atributos. Cada producto se representa como
+una tupla con la siguiente estructura:
+type Producto = [string, number, 'en stock' | 'agotado'];
+Donde:
+string: Nombre del producto.
+number: Precio del producto.
+'en stock' | 'agotado': Indica si el producto está en stock o
+agotado.
+
+- [map filter reduce](https://www.typescriptlang.org/play/?#code/C4TwDgpgBACgTgewCYFcDGwFQLxQNoDOwcAlgHYDmANFGSgLYBGEcNA5BGVEQmgNZsoAHyhsAhhQTAxSBGwC6AbgBQygPRqoAYTgQxcKCi77dFADZYk0MIlQYEBZWgRkiUG8nSYCALli2vBDx5HHxlKAj8NgAZMTBMMDYaAEYAVgAGdPZObkx+BSpwyLw2AFkEFAIIJKgAJlT2CSkZOXlCyKiAFQg0MxaagBYG0RyefLaiiJLyshJMOBqAZkzsrjGBCY6SgEl6GwgCBDgxGuTarNEm6VkFZSVVDSgAMRIzYn0oCwJ3APtvgEcUNADsAAJdcUZ5PhOFxuDx2bwAUTIAGUoaF4YECAA6ABmr2ALAAFJj7DgAHw-Tz2PC1ELYBkjNZQtgAShU6k0nWOrlxR3o+j8Oj0BiMtCBADcsCYIOZLC4rFA0DIxFAIGYIPROJhuHpDGRVcqrAaoIrCQAPTAw1zAKkIhzcsS8-ktb64UlI1FQ7ECsAk3467CUgDekyVsNteDICCYuho+zQJAQ9LtgRUHV0wBQcC4AAMACTB6OxiAAXygAFooPnCwmk9jMC9zRAkETaqzS7mVKX2Q9NAB5ODGj7q8UQKVQGVy03QPlwAWTghoTjGwnuI4-HpJ61wgMOQfD2Ru1N-R3O+eu7GHODAIlEsQ0RisilQUMdZw2zeJhAAQQx+iqJ4LDEW8xCvMAzDmIlBCrfM2TwZJ5F7d8Iy-JMACF-zgQDgNvRhwMg28YOreDEOQyJM2zLg61-Ss0IQdDu17HcEA1bELAof1qW8A9OFddkgA)
+
+
+### Ejercicio 3
+Estan desarrollando una aplicación para una cafetería.
+Los clientes pueden pedir diferentes tipos de café, cada
+uno con un tamaño específico.
+Objetivo:
+Crear un enum TamañoCafé: Define un enum con los
+posibles tamaños de café: Pequeño, Mediano y
+Grande.
+Crear un tipo Café: Define un tipo de interfaz Café
+que incluya las propiedades tipo (string), tamaño (de
+tipo TamañoCafé) y precio (number).
+Crear un arreglo de cafés: Define un arreglo de
+objetos Café con diferentes combinaciones de tipo,
+tamaño y precio.
+Filtrar: Los cafés de tamaño mediano.
+Transformar: Crear un nuevo arreglo que contenga
+solo el nombre del café y su precio con formato de
+moneda
+
+- [interface](https://www.typescriptlang.org/play/?#code/KYOwrgtgBAKghhOBHg9gYTgMwJdQN4BQUxUACsAI5jCpQC8UAROVTSowDREkCywAJgEs4IFPSZ8hI9lxJQA4gCcR-YOMZKVwRgQC+BAoJAAXYIsxwAxmow583YscEAHFAC4oAZ2OKjAcwBuByhjBGR3WDDUW2wguWdFYEtBCPAIACMzIP0CSxQQbyhLLGxPDxiAbQBdcQrgvBCXCMYAUU8E4E9PGRCoiPhEaJKAOhZqVA4oDuSIgCZhgFYoXVkSBqdXD0YAGThjU05ewf6+mOHJYVFJ6ZSPAGZF5dXidaatjGdnMEtk0UPQ44eAbhM6aECqa6JGYeAAswwADE96o1NkwAIIQMyCYp-SYA8JA04jC7SSFJW5QB6IlbIjbNHgoSwACzg-z6hOOZzGbDJ0Mpw1mywIVSCBAA9GKoAAxQQAGx8cEUUFlKE8RRKatUR3CUExUlEuXyhWKOE8JNEaoYJtKw0wctMigAFNb6AA+dU4Yb42h0X2RTnEgSXFAASlFEtgygKmBQikQSuAsqgisSfhVU0VcCK+VMIDMXhQ6cTUFEGUSUFUSZdAE8vGAplCUtmQFAY3G9mItRB8gI4IaCsYPaUYFHPG3EPxVeJrWag9JPMNEM5nSU3VBHYQ5KX0okPNavU1ng3yREAAYAEnPeH3NxQXpQMoAHgJHbMQ7pT3oQ2GDHkCoXgGGFU-BXU0RxEMdYwnVUwyAA)
+
+
+### Ejercicio 4
+Implemente una función que devuelva el
+siguiente número de la sucesión de
+Fibonacci cada vez que sea llamada
+utilizando la forma mas básica como la
+harían, con closure y con generador.
+
+- [iterators and clousure](https://www.typescriptlang.org/play/?#code/PTAEDEEsCMHsDsCGBjZlQFcDOl4HNRpEdlRIAXAUwCdFzIEAoAMw3mXoUOMmSjiSpIACgCUALlBjQAXgB8oeBgC20GqADejUDtAAbSuVCJZoAAwAaQqYCMAbm27qhjNXihW7TvGlbd-0GQELCN4SgAPIxljUABqQgcA3RNo6ESk62iwyPSk53JXd0Rc0ABfB1LGRiD4EMUI8n4AIR5SVNb+BBQ0MQcarFgDADo9WDxhbMaYFpIxUTtQEFAbauDByhGxiYbm1rmFpZX+9c3xyd3Z0XnFsAAmVdqT0bOd6b2rg7AAZgeB4eftpELrx9jdQABWKpLTqCNCYHD4QKjLCuSgsNgcBjuZDI1Ew7oiCRSUSyBRKVTqPy6AxGFLmKzQWwlfKFDwY7y+RxJfqhBqmEzxNJcgJ0oUZTL1HLC-wstzGErlRiVX68oEwADCuOcphxsBRznxQl6vyeW3OGq1lFBhxN-zNr2gmr1qOtYCOaztLzVjstrtA92OnsBUx9zucfp+gY2APNof1Vo+YMhjGhMC6QnhuAIeEoYVo5Fg1HRXixACpQDm83RC4aeiSqToaTFopYJfZhQB3AAWkAMUnI1AwlHr0t0PMlURigpK-lFM90jKyDXnOgAnpBKHoACby4WVZXj5gwADiudMlZo1eotcJfQ90a2R+gp-gQ0mYiGADdEHoh9cbVGpzCE+L5vg0H7fr+w6fMstoPuMIG5mBkQQT+f4wQG95AYhr7vqIX5odBYKRlhAI4ch5CoVB-5gOCQA)
+
+### Ejercicio 5
+Implementar un código en POO que permita guardar
+valores envueltos/encapsulados, es decir, puedo querer
+meter en un Box un objeto, en otro Box un numero, etc. Y
+luego implementen lo mismo pero con un tipo genérico
+Box<T> que simplemente envuelva/encapsule un valor de
+tipo T.
+
+- [Generic](https://www.typescriptlang.org/play/?#code/PTAECEEMGcEsGMIHsAep4BsbVAFyaAKYB28kADtAK5a6GiTECeoAbpBlYQFCbbJoA3t1CjQ5AE6x2dNhy4AuBswDc3EWPhJi0XBKrx8EgBTtOhJYyYBKUMLEO8AC1jQAdGa6gAvHPNqHAF91BwBzQlwANXlCY2tLZjsNR1AJCKoJYmdXDxiAsWDk0GgI6PNTGISbJVYkWAATJJTRXBd3T3pfDvzRYMKQUABRFEgAW3IMeipoSHDebV1QYipRgCNCCXBUHyXCAHcBYwBGACYAZms1LR0kSbcMJFDjZbWNrZQ3cKiYuMvQAdOZ3U10WuikxFC7x2xH2hwARAAJQgYB4AGlAAHUkBIMPUAIRwy7zG53B5PMGwCHvT6lH7WP4DJEopDorE4-HAha4UBIVYAK0IhihvhhB3exkEoAA1oQmEo4R04aBAkSQbdCPdHsZeQKhagad9yvSVP8wJKZXLQAqYkr+mAAOIkDYIAToLDQHD4IikCjUWj0SB+LxIABmeCY5HoABVeO6cO9HTCpPAADxRgB8TTEkmkkFkHSUUbURRBegMRgq5kLtnszVaOQ6O26RUKYVpRsLWZSaVwGSy9faeRbITEJUNXErilAUfibDqjVrKQHuXMTaHQW4dqGI3Gk1A01m9D2sFaoHCSZd72Jixe602qETzsQIthCadyZTt426eO51VC3VTUni-e8UEfZMDTKCdjVNUBAU5HRuQpKkH3fF0XzFVCL1TZDQh-RFkTRTFsVxAl-xJDUyWMXC32wyC6QZMAmSItlSIQxYdUFXBaKfaFXywp8U3NWUlFw5Uf2Ey1rXMW1yOgQCqM4vUwLQ+B6KNRi7GlESrUVZUgA)
+
+### Ejercicio 6
+Creen una función genérica llamada
+comparar<T, U> que tome dos argumentos de
+tipo T y U y devuelva true si ambos argumentos
+son iguales, y false en caso contrario. La función
+debe ser capaz de comparar diferentes tipos de
+datos, ejemplos:
+const resultado1 = comparar(10, 10); // Salida:
+true
+const resultado2 = comparar("Hola
+"
+,
+"Mundo
+");
+// Salida: false
+const resultado3 = comparar({ nombre:
+"Juan
+" },
+{ nombre:
+"Juan
+" }); // Salida: true
+
+- [Generic](https://www.typescriptlang.org/play/?#code/GYVwdgxgLglg9mABBOBbADgQwE44DwAqANIgKoB8AFJgFyLGIBGdpAlHY3HADYCmmSAN4AoRGMTZeUENiQApAMoB5AHIA6AM5RsMMAHMYwAJ7VWiALyXEi1Zu26Dxyo1YBuYQF9hwgPQ-EAKIAVrwY3HAaiAAmvIggGnDCKGBaErwaINxQmFFwAIwWyGhYuNiUeQAMJJVuiH6ICpjcMFG0iNogvEkIqZIZWTlwAEyFKBg4OJQARAASPJhTJFMAsuC5U7X1jc2tdMBNGl3JvemZ2bkAzKPFE2WCiGBojJJ0U3IgAlOIHiT3j6jPXivd6fb6bfzbFptDpdbopHi8NThPSUPpnQZ5cHtbCdOEJPhIuAotEDXJDLH7biHPEIwnE06kuAXLEwoA)
+
+### Ejercicio 7
+Implementen una estructura de datos Stack<T> que
+represente una pila (último en entrar, primero en
+salir) con los métodos comunes push(), pop() y
+peek().
+Implementen una estructura de datos genérica
+llamada Par<T, U> esta estructura debe almacenar un
+par de valores, uno de tipo T y otro de tipo U, donde
+T y U pueden ser cualquier tipo de dato válido en el
+lenguaje
+
+- [Generic](https://www.typescriptlang.org/play/?#code/PTAEGUBcEMGMGsB0kDOAoWAbaKURggDwAqAfKAN5qg2gAOATgJYBu0kApqE5wLYoAuUMQDaAXVABeUOIDcaarToBXFAAsAFDw68hxAJRCWAeyYATSotq1IapikTb+iFeq19986wF8F1usZ0GobCoAA+oMoAdmYcAGZMURwWVNbWDByQygxRoLb2jnwOAUGeVqC+5XQcHPDBeuGRMfGJyZZptBlZOXl2Dk4oIvn9RYiYHFEA5ragALSgAIxiXrSV1vYAorx0kACe9aAARsbG49C5qR2gXdm5w4U6DuNTM5JvoAAMKzRrtChMAC8OAcospeIcOAx2lcbj17gMxhNpmpvhU0JUQKAAArQBjIdBYHB4HEMEgAGlAAFVyJcaLBjFEUJAGMpYJBjAwNCpDpgmLBQAkGEy9BTubz+SgOPSYkJKfpKL4MWANgAPaDbcaRFDQSYcDAMpmgJlweBSUBJADu+BNhFB4MhpGC8mNCBcqk0CzKLqQrk0ACYytKUKcOGNjJMNN6XDU6vpPKBMQB5ZSQFSQIR+-WMkNhiNRkrBeMJsDJ1MpjNZ4PjXORgg+wKF2Q0JMptNCBYKIOQei4s2W7G4whM5hTCl2iEMR0AcjUHEwmGMU4pABYA-IgzmFxG6LjEIKmUWW2X06BZ-PjJXN+GubvJdKzPGj23QKugA)
+
+### Ejercicio 8
+Crea un sistema de inventario genérico utilizando TypeScript. El sistema debe permitir almacenar productos de diferentes tipos (electrónicos, ropa, alimentos) y realizar operaciones como agregar productos, eliminar productos y buscar productos por categoría.
+
+Requisitos:
+
+Utilizar enumerados:
+CategoriaProducto: Define un enumerado para representar las diferentes categorías de productos (electronico, ropa, alimento).
+
+Interfaz Producto:
+Define una interfaz genérica Producto<T> que incluya los siguientes atributos:
+id: Un identificador único del producto, lean lo que es un uuid.
+
+nombre: El nombre del producto, validar que solo se permitan letras.
+
+precio: El precio del producto.
+
+categoria: Un valor del enumerado CategoriaProducto.
+
+data: Un campo genérico de tipo T para almacenar datos específicos de cada tipo de producto (por ejemplo, tamaño para ropa, marca para electrónicos).
+
+Clases de Productos:
+ProductoElectronico: Implementa la interfaz Producto<string> y agrega un atributo marca de tipo cadena.
+ProductoRopa: Implementa la interfaz Producto<string> y agrega un atributo talla de tipo cadena.
+ProductoAlimento: Implementa la interfaz Producto<Date> y agrega un atributo fechaCaducidad de tipo Date.
+
+Inventario:
+Crea una clase Inventario que tenga una lista de productos y métodos para gestionar el inventario
+
+-[interface class](https://www.typescriptlang.org/play/?#code/KYOwrgtgBAwghgF2AcwPYCcCWcAK7UAmYAxgqlAN4BQUtUAogDbCn4ibGoA0NdASqgAOcHnSgBBRpgigyVAL5UqmEEnQAzOMWBQ8hEmQA8AFQB8lXrUwEAXFADOCLCGQBuS1BCoIAI3TA7R2c3D0F-YkxUO3BfYHR3MWJEFAxsO3gkNCxcfCJSVAS6AkQ4O2N3RSpiRjh7e11cg1QmFidUdk4oaUFmGVV6vTyjIJVkc2oxa0CnUcLaL19-aeC5qDCWSOjIHzjVpMzU0thkrOxBptXihCORl1WIOHQk5dmlRPagpvQACimHGZcXE83j8AX+wSB6wiUU82ziQIeTxuAOQAEoLGIxAgABaYewAOmsUAAvF0CKssbiCQtQSTgYtgBS6Di8fioZE6eyCh5Kaz9ilsnSMgKzo18viWqx2hxuZjmVT8Vc4HTEUkmbQWQTVcrSdrVopKtVagMxWQBMIuhAesA+ggTfp8oZbmMMXQ-s7VjSluDXmIuVtYvEPPzTkdhaHzvlLiUXncPNdGDVYyFgx8nF9frYfYD6aDk5DwptYYGgQmk9m0a65ZrCQQ6dZ1VAa16dKSW42a1zOYXZXKmwqQ4chSdDpGyPjzXAOwqlXSy1OefLWfO53BEwuxAalEa6g0HWRJNJZORur1ZPahqhDAARZLjDzulGekHej2hHsBnZBxIj7LpX+ivuva0Eqdi3kgqzqCw2JwPAeTWHAWbgYybx0JwICfPkPyPhCuaviiBYbDCMRfkCUHEDBcEkAhSHJOiEx9jWRKkg2i4agqLZ0u2bH9qyXakly058gBOrHAc2Rjqg+KHrawGYjWs6kuRlGIdRxTkjxNbKbBqkROpdLaVRemIfqCjbjUu4AJIgAAbrIjwcgxtBhJgNnJGspqoPYdiSYYcAgAAnqYADaAC6dJhe4HhwMg-jII8knfGEQE+Z5fmBaYqJ2DZqBEk58kKsll4EoIYD2NiSWeaipkeMAUgQCoCWeZmyZZVAOV5ZphWefUpKdj1+LqJgjBqJVQEkuYRVNLWUAAITEixBDVR4lRiD4ZVJOgOAYOGhzfIOf5iSKORAW1vn+UFYVVpi-gIGA6AgLxJUDUNI1xGNl4TR5QH4gd2AkgtUB-XAy2bmZVAAPQQwwABWNo9OQBA6GVqBVGmXS2fZWDkG2wAAO5QNZdmqA5qDfMtaMYQg32XgAjFx+N7pekptB0ZMAOS0+zQLswAMnAghkII3NQLTAAMEs89edWMOzy3oY4NNNAATAzBOSZO3zs8rIvs-ADX2MA1wi8rYs8wAsnL7gK9TU35AAzGrTNNDJx5a-buvm-5ABe-lwCLtNAiAjPIVrpvK-bAC0tPK5H9tc6iFMqMT1zY-iMVxU1QEfU0tPLcnWOROnsUoFnl45-kyv55jJNpxnpdbc1dtkPbFMK6gzD4owqDIL8Nep0X632Jt23oLt2TfOPgGXhKzBSmzifWx8HfAF3Pd9ynpP4kPI87SJk8iZJE5CCD8vL533e9wXteDxtCV7+J2AH4-J0z67qioIvSjXwPUl1dIjVG7Z21lbSm9gV5ryvv3LeO975j33lPV+01JyLyAA)
+
+### Ejercicio 9
+Tienen una aplicación que necesita cargar datos de una API. La API retorna un arreglo de objetos que representan diferentes tipos de datos (usuarios, productos, etc.).
+Requisitos:
+Enumerados:
+TipoDato: Usuario, Producto, Orden.
+Promesas:
+Crear una función cargarDatos(tipoDato: TipoDato): Promise<any[]> que simule una llamada a la API para obtener los datos.
+Async/await:
+Crear una función async mostrarDatos(tipoDato: TipoDato) que utilice async/await para llamar a cargarDatos y mostrar por consola los datos de forma formateada.
+Si ocurre un error al cargar los datos, mostrar un mensaje de error.
+-[promesas](https://www.typescriptlang.org/play/?#code/KYOwrgtgBAKglgBwPYBECGAXJUDeAoKQqAVQGcw0AnObAXigHIyLqkGAaAogBUqQBMwAYyxR6DXgOFYOXQgHlK-UGMaLlIBngC+ePADMwIETRBQhVAOZV0WUgAoMiVJiQAuWM9tIAlB8kQcKTAADxGANYgSADuIADaALoAfLhyUJTAGGCUZiDA0VABQcD29hmkSAA2AG7A7OnAAFbAIj5iKfhEXVDBGPAQwEhgGKVttB1p3USk0XAYQgAWUI5erm2dU5uEFsGeyN4AdMxUNG6TW5vlVbX2cThQcPweAIz1URAARhkeDABSFJooNp6vdHh4AExvJCfb6MACCIDQDCBCR8AG5zhdul9gGhwhisVMdsA9i4sAdJIIRO5MYTCFcaiU7g8nlBXlB3jifgAZNAILAIZHA3AsiFQmHAH4wYCVACX+iQUSFqIJdM2OLxqrV5jQu3g+1cB3UoDO2qmDJuzLBbPqCD4VKwPL5Ao4OpATn4aFZzyBINFUEhUDtUmpUpl8sVbHqFndjy9EJR6NpdI1+OTm2U+jQYEqGFNZq6GWaInsDH12GUUE9oiiPSQyEoGC9bCTdN0W2FzwADD3W0RtEndHhdQBPYxQQzGJyKqAQJCkDCUGyuBxOA2O0nedZpRcj1JbISKhdVleqNDRNBzHWUayUbyr1ZYPtEo9VYAHSpISz2AAG96rJJrtgAAkOBAd42huD+9S-AAyvIAByBwLtQICWHA+gjvY1bzm8OaVPU4I+M+QI6vMSz2MAlB8JQ24Hq+lTvlRNGlgAotRSCUFAaCVNet5QJ+pAnnYbiusxnEkboQ4APTSVArHNBACCfgBUBgBUZxzihy52PY5aHMcrBJlpi46fOemPkgFL2tIvgYiZS53iuFnrlZxogOiQA)
+
+### Ejercicio 10
+no se ha definido
+
+-[class ](https://www.typescriptlang.org/play/?#code/KYOwrgtgBAwghgF2AcwPYCcCWcAK7UAmYAxgqlAN4BQUtUAogDbCn4ibHkC8UARMM1ap2nXgBoadAEqoADnCg9e+eeMm0Ago0wRQZRXzjbdIMryoBfKlUyng6AGZxiwKHkIkyAHgAqAPkp1KEwCAC4oAGcELBBkAG4gkFQIACN0YHComPig2XTiTFRw8FT7BLooYkQUDGxw+CQ0LFx8IlJUcroCRDhwnwSrKmJGOAiIt1bPVCYWaOEOch1ZZhMEcfc27yzbZADqCpDM6J3O2iTU9KPs06g8lkLiyBSyoKrG2t7YaqbsDamb7oIT7bWI3CBwdBVK4nawVTggLJTdAACkOkWOsTEUHOaQy6OyWLuBSK2Ke9ix4MhwIxyAAlIEKhUEAALTARAB0IQMIRuTNZHJx6QMguAvLoLLZ7KJhQM0o6QT5kreNWaBgaKt+k3a7JmQhE8sZ4v57MBCh4lKqYtoEo5FrNUDtNysg2Go3WWrIMnkwQgy2Aq3dHnaXhBuwZdDRoZuIuhoNy+QepNK6Buyp+n3V6b+7QBPVjOSZRhG+YSr2EiPaKMjNKxMfxO0JCZJJWe6CxQMYxfrsXp+0NUBtnII3IIVoHxpFwuSuLHg7lsqbs+NaY+au+H2zZHZXrgS8lpoMHZGe45R-tZ6dlmsrrGEyDZC0Oj0i19Kz0gc2qC8ABFqnsgtW1yJNOlzdgWdByo8yapuuzT1LBmr3gaXR5lAv5IDcDgsMycDwG0IRwGEaHVKWcLltESKokRoa1iBeI0bcTZQa2WJYcQOF4SQBFEehwC9gqRqSlyPA8gJ1oTnRU4XKKYnjpK848HKJ7siuqo8JmG4eqg7KPqsyGGoOB48GxHGEVx3SjrJg4mbhZkFBZBg2Zx9mEZeLojLeACSIAAG56BCMp9rQeSYD51SMUhEThJuX5wCAACefgANoALoGKlpF0HAyDpMgEIxcieRIdFWleHFiW0uEPmoFyQWMnOWkcrIYARMyhVabSl5BAIOi2PlWlUfmlVQNVtVWcaRWfuMPANZF7IOJgjBICik1TIoASrdqXIAIRcCJBCdUEgwVCkLVVOgOAYBpzTIqpdRfO8zQxcNMVlQlyVpXVFTpAgYDoCAclNY182Lct7VIetEWfipCFmntlSw4dFTOtYAD0qMMAAVv6yzkAQrgtagQzkcEvn+Vg3DYsAADuUDeX5pgBagyKHcTCIIFDUwAIzCjTd6frqcz6sivBc+IfAADJwLIZCyOLXMAKwAAxK1ivDfgIjC8Id8JRJz7QAEy87TMU7iLBvi7w8AQGywBAuLBuq3wACy2sJLrHObWQADMxv81MunPiL3uW87cUAF5xXA8u1nzvHIo7Bve1iXNc1i3tc7SrO2AzQIU+y2W5f1SHg5+mcJDn5OFAXOUoMXn6l1MBuHZXjP54XdcXQNXuoN7rO66gzDsowqDIKiZNt9Xp0ROdl3oNd2DIgvLRITqghCwsWfu+Wg-AMPo-j7nTPstPs9XbDS+wzF25yHAW9sxEu-72Prd51PZ35efj2L8v1+B6YqAt5AA)
+
+### Ejercicio 11
+Se esta desarrollando un gestor de tareas donde cada tarea puede tener diferentes estados (pendiente, en progreso, completada) y prioridades (alta, media, baja).
+Requisitos:
+Enumerados:
+EstadoTarea: Pendiente, EnProgreso, Completada.
+Prioridad: Alta, Media, Baja.
+Programación genérica:
+Definir una interfaz Tarea<T> que represente una tarea genérica, donde T es el tipo de datos de los detalles de la tarea.
+Promesas y async/await:
+Crear una función genérica async ejecutarTarea<T>(tarea: Tarea<T>): Promise<void> que simule la ejecución de una tarea.
+La función debe actualizar el estado de la tarea a "En Progreso" antes de ejecutarla, y a "Completada" al finalizar.
+Utilizar setTimeout para simular el tiempo de ejecución de la tarea.
+Manejo de errores:
+Implementar un mecanismo para manejar errores durante la ejecución de la tarea (por ejemplo, lanzar una excepción si ocurre un error).
+
+-[promesas](https://www.typescriptlang.org/play/?#code/KYOwrgtgBAogzgFwIYBMD2AVJAnYSoDeAUFKVAAqgoCWoCwUAvFAESUg13AsA0JZMEOWxoA5rjhomrQRRHjgk3v1IBhNBAAOAG2DIU+Zi3Vbd+pCyIBfIkVCQ51NNmoGUhFVACC25NJY+yMpkUACywDSGrOGRwWQAQkgAVlEsiSmWNkTUIPTYAGZIAMYMWLhIADwYAHweISh6SNq6cABcUBgA3J6K+mjt8H1leN0hmi7Orqjtwk4ubt1ZSHAAniBFUPlg6whOIFDAScBFYMjYw5U1ABRneO0XVdUAlDMiENRwwBUAbmiutcQQghsCs6iEyLckAA6XqoKTMQZwi5QwTCMQSNCjcGkIpoECSXRQ7RiK4AAxgRxOyA4UkhUFx+3Gcym7gAJARIVCmZM3FYofzSU9up4QkgAO5IagIKAgYBiuQaD5fX7-K5XDHab7AJ5MWqfBAYagQYBoU5qnWMAEi7FQDVaq5C62kKw8KAAJgADF6nkKoAB6P1QADKRrA2nwwG0UF2wC0UgaB0pYCK1AAz-sE+Hozg8LYbdnyjDEHDpIj0MiTDpGgYsdiGQTgESSaSLvSNFXzFDBbWoFZ6UgEEUABZQK7AbAibA6wE2+toQnjydkmAT5xQJqJ46nHBQLOQ9rsxfOKzdp3RocieVH7A9mxZAOwI6meMMMCSIj16WQimxnT9Do5pUiAuCAoi1MwM6kA0yDNIo7QsIiBxwFA2z4HSCaHL+xJxKQsLoAMxbloBULsJwuTAHwYwTPM0yODyqBQoESDWMKmFUjgFw3IBP7Pk8UIIEOoDmrqYI4niDZNqIy6EVI+Q5BumZoYBB4ctxT5-kWfQno6Vh8UUA7Dmq14WlaIRzguq7YGSAAySnlJsTTaKmKnXtpnRAA)
+
+### Ejercicio 12
+
+- Crea un sistema de gestión de videojuegos genérico en TypeScript. Los videojuegos pueden ser de diferentes plataformas (PC, consola, móvil) y géneros (acción, aventura, RPG).
+
+Requisitos:
+
+- Enumerados:
+
+Plataforma: Define un enumerado para representar las diferentes plataformas (PC, Consola, Movil).
+Genero: Define un enumerado para representar los diferentes géneros (Acción, Aventura, RPG).
+- Interfaz Videojuego:
+
+Define una interfaz genérica Videojuego<T> que incluya los siguientes atributos:
+id: Un identificador único del videojuego (número).
+titulo: Un campo generico tipo arreglo U para almacenar el título del videojuego en diferentes idiomas.
+plataforma: Un valor del enumerado Plataforma.
+genero: Un valor del enumerado Genero.
+data: Un campo genérico de tipo T para almacenar datos específicos de cada tipo de videojuego (por ejemplo, requisitos mínimos para PC, lista de logros para consola).
+precio: Un campo generico tipo arreglo V para almacenar el precio del producto o el precio con su tipo de moneda
+- Clases de Videojuegos:
+
+VideojuegoPC: Implementa la interfaz Videojuego<string[]> y agrega un atributo requisitosMinimos de tipo array de cadenas.
+VideojuegoConsola: Implementa la interfaz Videojuego<string[]> y agrega un atributo logros de tipo array de cadenas.
+VideojuegoMovil: Implementa la interfaz Videojuego<number> y agrega un atributo tamanoDescarga de tipo número (en megabytes)
+- Biblioteca de Videojuegos:
+
+Crea una clase BibliotecaVideojuegos que tenga una lista de videojuegos y métodos para agregar, buscar y filtrar videojuegos por plataforma o género.
+
+- [class](https://www.typescriptlang.org/play/?#code/KYOwrgtgBACgNgQwC4IGYHsBOEFQN4BQUxsAwgDREmnogDO6ilJUAsugG4CWcBAvgQKhIUAOKhgmdPirEAggGMFXWsxJyOoJGEwI1xAEoxR-QVxBJJqBAuBQAalwAmwdACswwAOboAPABVyKABVIPsAPhkWZwAuKHAIACNJAG5ZKCQubTh0OOCAbQBdNJYAB0QUDGwEOPhkNCwcEpIvCSk48RBJdGbiJ3q4-16oUsxgZVyHIrSBAgVEOjoHZ1cPb3QYUiguCHLgCC0lxxd3Tx9fOiRMcy8ioMvrkC97q5vIwminOITkzGHM7KTB43abpcr1Ko4WoVBrVYatLrtMRtHrpfooOLAp6gspjCaY17Y4rpMYARzAXDoWXQdFY5h2NIJj1uxPSCloDzACiQWAAFLF4pBfkEAWAckyQYUguDKo0arAYZC9FAEd0Oiiguj5ViWdK8SoJUSgmSKVSebT6RBGVAdUUAJRRFgkJAAC0pADpnFAALzbJzDFiuj2inI+jJZMWop3Ot10d0y2E4MMJpUBmMe1VSMOZqPRjKx91asNatPEINx0bjFTJ-W56Pl90mynUi0gBlLX1Ns00ultq10YYCWbzBCLZYnNY+Gj0Ri4HZ7A4WI4rU7rC6E3U2jdBH6Sd7pAW7v7pENAjc4kgpuXQiFy+Eo9WIutQLWGlnDSv4wVJSQX4g5LwpDoN9QTZDkri5HlMH5L5v2FcNARAqURkVa8FVvaoghzR9uk1AYt2ZO4Rlrb4hV-ZCAKApCHQ+PMGy9X1nFLfNgwjUNfVPZiGyvapk1QuF0kDAsc2zFEuILItfRLQT0wrWsayrZ8hI9SiaTDVSB3SIdBBHMdjlWM50HYbg4G2XY4H2Q5xwMtcjxeZl7LeR1iEPMjj0DNiz0I4kyn4qF0NlASWGw5En2GV84NSMESIIyV-gQHAQHQAARYA6AUBBMC8eUjzSMD6Ag7k+Vcn9MBFTykOlPz5TqQKcCwh9Qtwl98Ls4jFMqjIEoQJLUvSzLstI0qaJkssCwYv1xNYwEw040aWIraq+Iwpp5obETfRzKa40klqUG2+N5N9T8VAOlBEpStKMqy3AOO63qroGhBB1MOYFiWAAhLhEjgFRLAy-TVx8JZaOIUYuA4ZA7G4CdDOA6ygb8HqAE8ghRtGQGR8IijDUCWAQQDvEywHJ3QXkYZsnw4hJwzfHRqB6ZR8I7TiDh0C9UGnQbCnEYrMA6BdcmV1Ju0XvSRJ+eumAsFqxMEF5Hj-NlpUWYR0m6cxjHUYZzHscKZynTGbRMBABb3R50m41QHhLGgjgfUiDh4yW71XZQlaEFFrTBBYCX+swaXME6bpeRC4OpFVmm10ZzWdaxnHOZYI2dFN7nhbh91rbgW3yYdqAnY2t2cy9lhtIIAB6cuoAAUTcfZymkFwoH59A5nAqBEm+370H+274mAAB3KAvp+v7xgQKPgd5L224KqBSc2MMuiHyeNlIXkAEYgnyAAiUhkd+UowBAABrKAACYAAYAHZr53oId+r0yj9Pl9gFMhQD8kHfkOVuV3U2EEcO6B3SKAmCAbeO8ADq5gnDoAHksDel975QB3gADjEB9KABg5CsB-pAje58oDAB0DSFBO9CGXygAAEnwVAXeMCQBwIQVAJB5CMGiCwTgvBhQvbsjnqTacDBEBL0HmrQyQjZy8nPpA-eh9j5nyvrfchT8RgKLfh-L+mA6F-2qO6SRTAmpSFAUoFQED6E7zqMjKAABWchVioAABY6H5EIUEAAzI4y+yFd6KDdMATQi4kCsPIX4rgATLIWAvj-GendR493Hu6AmYxsqYFXryBepAvZxO7r3JJhNUnpMERyWcM9+HCOAO6ACvIcljwyu6P2UsZbVV5LonA+iSmIDtKLIAA)
+
+
+### Ejercicio 13
+Crea un generador que produzca una secuencia infinita de números primos. Utiliza un algoritmo eficiente para determinar la primalidad de un número.
+
+-[yield](https://www.typescriptlang.org/play/?#code/GYVwdgxgLglg9mAVAAgA4CcYFsCmBxHMHdAQyjnQAoBKAKAG9blnkAbHKZMELZAXmQAmANxMWAdwAWMdskpR0IHNWSMW65DGByYAZwAKmXJW5ZqKtRqsBPGDlYATLj1FXmAXzFXTAah+uWTy9kUEhYBE0DIxwTAC5nLAAjYmp4xLg4dhIwVWD1LTkcgB4BAEYVdA4QdBzgElZdHACrApNkEuQAZgqqmuQFJWaNVpyAUiF+PgEABmQAHzmuZHHOyZmeqGra+sah9WAKOXZOGH5kAFZhTWQUU46wK9OfAQA2Czy3EeXrqZn5xbGOmQPiEKl+yGmGy2IR2TQ+HnhyEqmz6Azh6k87iAA)
+
+### Ejercicio 14
+
+Crear una función genérica zip que tome dos arreglos de igual longitud y retorna un nuevo arreglo de tuplas, donde cada tupla contiene un elemento de cada uno de los arreglos originales.
+
+-[generic](https://www.typescriptlang.org/play/?#code/GYVwdgxgLglg9mABALxgBwDwBUA0iCqAfABQCGATuaQJ4CMAXIlgNoC6eFV1ATI-mwEpGzXAVZtEAbwBQiOYhjBEZSjVoA6ADYBTMAHMoAC0QBCALxnEnGty26DhgVNnzXR8nADuiMNu8BRSjhyYgAiACE4IytVagBnRABbEDioRENSADdtRCMcuNJEnJ19I1CBAG4XOQBfaWrECARUxHJtOJBNKGFRfHFWREs2KtdgYOUdNJhBxAAGCoVEDBiuDRKHBZgAai2nGVdXNo6u9TQUw2JmazpmGHYVm1vWVkqGuoa2qBByJCPOqCq7wA9EDEP4AB6FNA6RApUh6bT0aRNMAta60GbMWh4bh4ADMrCqKLRsW4mIA5KRyXhyQAjamIckQcmE5HNNKoNBobQAEwAgrEZpyVKsOKTXsS4DotHA9MROdz+bFKogQYgAPIgKBnbqIZhYmlU+7MXGM+nGvE05nPIA)
